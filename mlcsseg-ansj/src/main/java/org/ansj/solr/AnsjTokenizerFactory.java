@@ -5,10 +5,11 @@ import java.io.InputStream;
 import java.io.Reader;
 import java.util.List;
 import java.util.Map;
+
 import org.ansj.library.UserDefineLibrary;
 import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.util.ResourceLoader;
-import org.apache.lucene.util.AttributeSource.AttributeFactory;
+import org.apache.lucene.util.AttributeFactory;
 
 import com.mlcs.search.mlcsseg.lucene.ReloadableTokenizerFactory;
 import com.mlcs.search.mlcsseg.lucene.ReloaderRegister;
